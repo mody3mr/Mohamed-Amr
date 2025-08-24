@@ -389,10 +389,10 @@
     <div class="container">
         <div class="profile">
             <div class="profile-img-container">
-                <img src="profile.png" alt="Mohamed Ayman" class="profile-img">
+                <img src="profile.png" alt="Mohamed Amr" class="profile-img">
             </div>
             <div class="profile-info">
-                <h1 class="name">Mohamed Ayman</h1>
+                <h1 class="name">Mohamed Amr</h1>
                 <div class="verified"><i class="fas fa-check-circle"></i></div>
             </div>
             <div class="social-icons">
@@ -417,7 +417,7 @@
         </div>
         
         <div class="footer">
-            Mohamed Ayman – MeDoAnDrOiD © 2025
+            Mohamed Amr © 2025
         </div>
     </div>
     
@@ -469,7 +469,7 @@
                     return;
                 }
                 
-                if (message.length > 1000) {
+                if (message.length > 2000) {
                     showNotification('الرسالة طويلة جداً!', 'error');
                     return;
                 }
@@ -488,8 +488,8 @@
             function sendToTelegram(message) {
 
                 
-                const botToken = 'U token bot here';
-                const chatId = 'Id  Chat';
+                const botToken = '8479234419:AAF0DakbjDo2XBfQ9BJpJVliswYpW6wYEUw';
+                const chatId = '5664540316';
                 
 
                 const apiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
